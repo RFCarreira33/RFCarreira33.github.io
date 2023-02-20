@@ -1,61 +1,19 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Footer from '../components/Footer.astro';
 import Navbar from '../components/Navbar.astro';
+import CardSection from '../components/CardSection.astro';
 ---
 
 <Layout title="Home">
 	<main>
 		<Navbar />
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
+		<h1 class="text-2xl pb-2 font-bold">Heyo, I'm RFCarreira</h1>
+		<p class="font-regular">I'm a developer from Portugal and I like to tinker with stuff. Interested in <b>web and software development</b>, <b>computer hardware</b> and looking to start contributing to <b>open source</b> projects.</p>
+		<br>
+		<p>I'm on my last year of University and interning at <a class="text-blue-300" href="https://www.md3.pt/">MD3</a>. On my free time I like to game or learn something new but also hang out with friends and chill.</p>
+		<br>
+		<CardSection/>
 	</main>
+	<Footer/>
 </Layout>
-
-<style>
-
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-	.instructions {
-		line-height: 1.6;
-		margin: 1rem 0;
-		border: 1px solid rgba(var(--accent), 25%);
-		background-color: white;
-		padding: 1rem;
-		border-radius: 0.4rem;
-	}
-	.instructions strong {
-		color: rgb(var(--accent));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 1rem;
-		padding: 0;
-	}
-</style>
