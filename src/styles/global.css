@@ -24,6 +24,7 @@ h2{
     color: #e4e4e7;
     font-size: 24px;
     font-weight: bold;
+    margin: 0.5em 0;
 }
 
 a{
@@ -36,4 +37,8 @@ p{
 
 li{
     color:#d4d4d8;
+}
+
+header {
+   margin: 0em 0 2em;
 }

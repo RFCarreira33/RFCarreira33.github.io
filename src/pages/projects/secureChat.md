@@ -6,7 +6,7 @@ source: "https://github.com/RFCarreira33/Projeto_TS"
 language: "C#"
 filename: "secureChat"
 layout: "../../layouts/ProjectLayout.astro"
-favourite: true
+pin: true
 ---
 
 ## What is Secure Chat

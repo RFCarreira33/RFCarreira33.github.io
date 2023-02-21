@@ -6,7 +6,7 @@ source: "https://github.com/RFCarreira33/Projeto_DA"
 language: "C#"
 filename: "restGest"
 layout: "../../layouts/ProjectLayout.astro"
-favourite: true
+pin: true
 ---
 
 ## What is RestGest

@@ -6,7 +6,7 @@ source: "https://github.com/RFCarreira33/PSI_AMSI_22-23"
 language: "Java"
 filename: "globaldigaMobile"
 layout: "../../layouts/ProjectLayout.astro"
-favourite: true
+pin: true
 ---
 
 ## What is GlobalDiga Mobile
