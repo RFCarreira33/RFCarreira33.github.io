@@ -6,11 +6,13 @@ import Footer from "../components/Footer.astro";
 export interface Props {
 	content:{
 		title: string;
+        source: string;
+        upload: string;
 	}
 }
 
 const {
-	content: { title }
+	content: { title, source, upload }
 } = Astro.props;
 ---
 
@@ -25,6 +27,14 @@ const {
 	</head>
 	<body>
 		<Navbar />
+        <h1 class="text-4xl">{title}</h1>
+        <br>
+        <p><b>Uploaded </b>{upload}</p>
+        <b><a href={source} target="_blank">Source Code</a></b>
+        <br>
+        <br>
+        <hr>
+        <br>
 		<slot />
 		<Footer />
 	</body>

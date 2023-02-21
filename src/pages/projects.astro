@@ -1,17 +1,20 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Footer from '../components/Footer.astro';
-import Navbar from '../components/Navbar.astro';
-import CardSection from '../components/CardSection.astro';
+import Card from '../components/Card.astro';
+const projects = await Astro.glob("./projects/*.md");
 ---
 
 <Layout content={{title:"Projects"}}>
 	<main>
-		<h1 class="text-2xl pb-2 font-bold">Heyo, I'm RFCarreira</h1>
-		<p class="font-regular">I'm a developer from Portugal and I like to tinker with stuff. Interested in <b>web and software development</b>, <b>computer hardware</b> and looking to start contributing to <b>open source</b> projects.</p>
-		<br>
-		<p>I'm on my last year of University and interning at <a href="https://www.md3.pt/">MD3</a>. On my free time I like to game or learn something new but also hang out with friends and chill.</p>
-		<br>
-		<CardSection/>
+		<section class="list-none space-y-5">
+		{projects.slice(0, 4).map((proj) => (
+			<Card
+				title = {proj.frontmatter.title}
+				body = {proj.frontmatter.description}
+				language={proj.frontmatter.language}
+				href = {`projects/${proj.frontmatter.filename}`}
+			/>
+	  ))}
+	  	</section>
 	</main>
 </Layout>

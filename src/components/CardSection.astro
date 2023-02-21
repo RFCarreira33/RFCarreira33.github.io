@@ -1,32 +1,17 @@
 ---
 import Card from '../components/Card.astro';
+const projects = await Astro.glob("../pages/projects/*.md");
 ---
 
-<h1 class="text-2xl pb-2 font-bold">Some of my work</h1>
+<h1 class="text-2xl pb-2 font-bold">Some projects I've worked on</h1>
 <br>
 <section class="grid grid-cols-1 gap-4 auto-cols-max sm:grid-cols-2 sm:gap-3">
+	{projects.slice(0, 4).map((proj) => (
 	<Card
-		href="https://docs.astro.build/"
-		title="Documentation"
-		body="Learn how Astro works and explore the official API docs."
-		language="lua"
-	/>
-	<Card
-		href="https://astro.build/integrations/"
-		title="Integrations"
-		body="Supercharge your project with new frameworks and libraries."
-		language="lua"
-	/>
-    <Card
-		href="https://docs.astro.build/"
-		title="Documentation"
-		body="Learn how Astro works and explore the official API docs."
-		language="lua"
-	/>
-	<Card
-		href="https://astro.build/integrations/"
-		title="Integrations"
-		body="Supercharge your project with new frameworks and libraries."
-		language="lua"
-	/>
+		title = {proj.frontmatter.title}
+		body = {proj.frontmatter.description}
+		language={proj.frontmatter.language}
+		href = {`projects/${proj.frontmatter.filename}`}
+		/>
+	  ))}
 </section>
