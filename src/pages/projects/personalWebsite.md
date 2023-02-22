@@ -35,6 +35,6 @@ If you are reading this chances are that you have already seen how my website lo
 <br>
 <div align="center">
 <a href="https://rfcarreira33.github.io/">
-    <img src="/public/404.png">
+    <img src="/404.png">
 </a>
 </div>
