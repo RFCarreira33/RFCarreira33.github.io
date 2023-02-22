@@ -1,9 +1,7 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import Card from '../../components/Card.astro';
-const projects = await Astro.glob("./*.md");
-let { pathname } = Astro.url;
-pathname = pathname.replace(/\/$/, "");
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+const projects = await Astro.glob("./projects/*.md");
 ---
 
 <Layout content={{title:"Projects"}}>
@@ -16,7 +14,7 @@ pathname = pathname.replace(/\/$/, "");
 				title = {proj.frontmatter.title}
 				body = {proj.frontmatter.description}
 				language={proj.frontmatter.language}
-				href = {`${pathname}/${proj.frontmatter.filename}`}
+				href = {`projects/${proj.frontmatter.filename}`}
 			/>
 	  ))}
 	  	</section>
