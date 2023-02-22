@@ -9,7 +9,7 @@ layout: "../../layouts/ProjectLayout.astro"
 pin: true
 ---
 
-## What is Secure Chat
+## Description
 
 Secure Chat, as the name implies, is a multi client **chat** with **end to end encryption** that uses a communication protocol developed by ex-Students of IPLeiria called **ProtocolSI**, it was a project for the TS (Tópicos de Segurança) curricular unit which stands for **Security Topics** and it introduced us to basic security processes.
 

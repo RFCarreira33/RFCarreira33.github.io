@@ -9,7 +9,7 @@ layout: "../../layouts/ProjectLayout.astro"
 pin: true
 ---
 
-## What is GlobalDiga Web
+## Description
 
 GlobalDiga, is a online tech store, and this is the web component of my final course project this being the main component which hosts the server and the api used to integrate the [mobile component](/projects/globaldigaMobile) into the main server.
 
