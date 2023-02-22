@@ -5,6 +5,6 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://rfcarreira33.github.io',
+  site: 'https://RFCarreira33.github.io',
   integrations: [tailwind(),]
 });
