@@ -6,10 +6,10 @@ source: "https://github.com/RFCarreira33/Projeto_DA"
 language: "C#"
 filename: "restGest"
 layout: "../../layouts/ProjectLayout.astro"
-pin: true
+pin: false
 ---
 
-## What is RestGest
+## Description
 
 RestGest is a **desktop application** that can be used for restaurant management, it was project developed for DA (Desenvolvimento de aplicações) curricular unit that stands for **Application Development**, this was our introduction to [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) and Windows Forms.
 
