@@ -37,7 +37,7 @@ with Vim keybinds. Both of them with the **Material darker** theme which also in
 
 ## Goals and Ideas
 
-- [ ] Start contributing to open source
+- [x] Start contributing to open source
 - [x] Create a personal website
 - [ ] Create a online curriculum
 - [ ] Learn Rust
