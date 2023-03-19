@@ -13,7 +13,7 @@ In 2021 I decided to enroll on a **programming course** at IPLeiria with no prio
 
 ## Programming languages
 
-I'm currently working with [Astro](https://astro.build/) to build this website but
+I'm currently working with [React](https://react.dev/) and **Typescript** but
 I've worked with **PHP** and the [Yii2](https://www.yiiframework.com/) framework doing web development,
 **C#** and [.Net](https://dotnet.microsoft.com/) creating desktop apps and
 **Java** building mobile apps for [Android](https://developer.android.com/).
@@ -40,5 +40,5 @@ with Vim keybinds. Both of them with the **Material darker** theme which also in
 - [x] Start contributing to open source
 - [x] Create a personal website
 - [ ] Create a online curriculum
-- [ ] Learn Rust
+- [x] Learn Rust
 - [ ] Get a job in this area
