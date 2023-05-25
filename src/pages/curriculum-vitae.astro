@@ -1,0 +1,46 @@
+---
+import Layout from "../layouts/CvLayout.astro";
+---
+
+<Layout content={{ title: "Curriculum Vitae" }}>
+  <main>
+    <div class="grid grid-rows-3 grid-cols-12 gap-2">
+      <div class="row-span-4 col-span-2">
+        <img src="/avatar.png" />
+      </div>
+      <div class="row-span-4 col-span-4">
+        <h1 class="text-2xl font-bold">Rodrigo Carreira</h1>
+        <p class="text-xl">Developer</p>
+      </div>
+      <div class="row-span-4 col-span-1"></div>
+      <div class="row-span-2 col-span-5">
+        <ul>
+          <li class="flex justify-end">
+            <span class="items-center">
+              <i class="fa fa-envelope pr-1"></i>
+              rodrigocarreira33@gmail.com</span
+            >
+          </li>
+          <li class="flex justify-end">
+            <span class="items-center">
+              <i class="fa fa-linkedin pr-1"></i>
+              rfcarreira33@linkedIn</span
+            >
+          </li>
+          <li class="flex justify-end">
+            <span class="items-center">
+              <i class="fa fa-github pr-1"></i>
+              rfcarreira33@github</span
+            >
+          </li>
+          <li class="flex justify-end">
+            <span class="items-center">
+              <i class="fa fa-map-marker pr-1"></i>
+              Leiria, Portugal</span
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+</Layout>

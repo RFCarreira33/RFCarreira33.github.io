@@ -1,0 +1,14 @@
+@page {
+    size: auto;
+    margin: 0mm;
+}
+
+html {
+    font-family: system-ui, sans-serif;
+    font-size: 18px;
+    background-color: #171717;
+    margin: auto;
+    color-scheme: dark;
+    padding: 1.5rem;
+    max-width: 80ch;
+}
