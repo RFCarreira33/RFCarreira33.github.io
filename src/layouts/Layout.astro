@@ -1,16 +1,16 @@
 ---
 import "../styles/global.css";
-import { SITE_TITLE } from '../config';
+import { SITE_TITLE } from "../config";
 import Navbar from "../components/Navbar.astro";
 import Footer from "../components/Footer.astro";
 export interface Props {
-	content:{
+	content: {
 		title: string;
-	}
+	};
 }
 
 const {
-	content: { title }
+	content: { title },
 } = Astro.props;
 ---
 
@@ -32,8 +32,8 @@ const {
 <script>
 	// client side routing
 	import flamethrower from "flamethrower-router";
-  	export const router = flamethrower({
-    	pageTransitions: true,
-    	prefetch: "visible",
-  	});
+	export const router = flamethrower({
+		pageTransitions: true,
+		prefetch: "visible",
+	});
 </script>

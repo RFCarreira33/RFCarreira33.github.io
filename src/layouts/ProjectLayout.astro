@@ -1,18 +1,18 @@
 ---
 import "../styles/global.css";
-import { SITE_TITLE } from '../config';
+import { SITE_TITLE } from "../config";
 import Navbar from "../components/Navbar.astro";
 import Footer from "../components/Footer.astro";
 export interface Props {
-	content:{
+	content: {
 		title: string;
-        source: string;
-        upload: string;
-	}
+		source: string;
+		upload: string;
+	};
 }
 
 const {
-	content: { title, source, upload }
+	content: { title, source, upload },
 } = Astro.props;
 ---
 
@@ -27,14 +27,14 @@ const {
 	</head>
 	<body>
 		<Navbar />
-        <h1 class="text-4xl">{title}</h1>
-        <br>
-        <p><b>Uploaded </b>{upload}</p>
-        <b><a href={source} target="_blank">Source Code</a></b>
-        <br>
-        <br>
-        <hr>
-        <br>
+		<h1 class="text-4xl">{title}</h1>
+		<br />
+		<p><b>Uploaded</b>{upload}</p>
+		<b><a href={source} target="_blank">Source Code</a></b>
+		<br />
+		<br />
+		<hr />
+		<br />
 		<slot />
 		<Footer />
 	</body>

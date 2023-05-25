@@ -1,22 +1,32 @@
 ---
 import NavLink from "./NavLink.astro";
 ---
+
 <header>
-    <h2 class="text-xl font-bold flex items-center gap-3">
-      <img
-        src="/avatar.png"
-        alt="avatar"
-        width={50}
-        height={50}
-        class="rounded-full "
-      />
+  <h2 class="text-xl font-bold flex items-center gap-3">
+    <img
+      src="/avatar.png"
+      alt="avatar"
+      width={50}
+      height={50}
+      class="rounded-full"
+    />
     Rodrigo Carreira
-    </h2>
-    <nav>
-        <NavLink title="Home" href="/" />
-        <NavLink title="About" href="/about" />
-        <NavLink title="Projects" href="/projects" />
-        <NavLink title="GitHub" href="https://github.com/RFCarreira33" target="_blank" />
-        <NavLink title="Email" href="mailto:rodrigocarreira33@gmail.com" target="_blank"/>
-    </nav>
+  </h2>
+  <nav>
+    <NavLink title="Home" href="/" />
+    <NavLink title="About" href="/about" />
+    <NavLink title="Projects" href="/projects" />
+    <NavLink
+      title="GitHub"
+      href="https://github.com/RFCarreira33"
+      target="_blank"
+    />
+    <NavLink
+      title="LinkedIn"
+      href="https://www.linkedin.com/in/rfcarreira33/"
+      target="_blank"
+    />
+    <NavLink title="CV" href="/curriculum-vitae" />
+  </nav>
 </header>
