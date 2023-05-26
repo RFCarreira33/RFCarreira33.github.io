@@ -1,0 +1,13 @@
+---
+export interface InfoProps {
+    icon: string;
+    info: string;
+}
+
+const { icon, info } = Astro.props;
+---
+
+<span class="items-center">
+    <i class=`fa fa-${icon} pr-1`></i>
+    {info}</span
+>

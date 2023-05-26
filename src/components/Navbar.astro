@@ -1,4 +1,5 @@
 ---
+import { MY_NAME } from "../config";
 import NavLink from "./NavLink.astro";
 ---
 
@@ -11,7 +12,7 @@ import NavLink from "./NavLink.astro";
       height={50}
       class="rounded-full"
     />
-    Rodrigo Carreira
+    {MY_NAME}
   </h2>
   <nav>
     <NavLink title="Home" href="/" />

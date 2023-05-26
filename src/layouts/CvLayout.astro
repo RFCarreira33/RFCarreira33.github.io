@@ -1,7 +1,6 @@
 ---
-import "../styles/print.css";
+import "../styles/global.css";
 import { SITE_TITLE } from "../config";
-import Navbar from "../components/Navbar.astro";
 export interface Props {
     content: {
         title: string;
@@ -28,12 +27,20 @@ const {
     <body>
         <div class="grid grid-rows-1 grid-cols-12 gap-2 print:hidden">
             <div class="col-span-2">
-                <a href="/"><i class="fa fa-home pr-2"></i>Home</a>
+                <a href="/"
+                    ><span
+                        class="font-medium hover:underline underline-offset-3px"
+                        ><i class="fa fa-home pr-2"></i>Home</span
+                    ></a
+                >
             </div>
             <div class="col-span-8"></div>
             <div class="col-span-2 flex justify-end">
-                <button onclick="window.print()" class="text-end"
-                    ><span><i class="fa fa-print pr-2"></i>Print</span></button
+                <a onclick="window.print()" class="cursor-pointer"
+                    ><span
+                        class="font-medium hover:underline underline-offset-3px text-end"
+                        ><i class="fa fa-print pr-2"></i>Print</span
+                    ></a
                 >
             </div>
         </div>
@@ -43,3 +50,11 @@ const {
         </div>
     </body>
 </html>
+<script>
+    // client side routing
+    import flamethrower from "flamethrower-router";
+    export const router = flamethrower({
+        pageTransitions: true,
+        prefetch: "visible",
+    });
+</script>
