@@ -43,10 +43,6 @@ header {
     margin: 0em 0 2em;
 }
 
-.details {
-    font-size: 14px;
-}
-
 @media print {
     @page {
         size: auto;
