@@ -39,6 +39,6 @@ with Vim keybinds. Both of them with the **OneDark** theme.
 
 - [x] Start contributing to open source
 - [x] Create a personal website
-- [ ] Create a online curriculum
+- [x] Create a online curriculum
 - [x] Learn Rust
 - [ ] Get a job in this area

@@ -40,7 +40,7 @@ const education = (await Astro.glob("./education/*.md")).filter(
             </div>
             <div class="row-span-3 col-span-3" />
             <div class="row-span-3 col-span-9 text-sm">
-              {exp.frontmatter.description}
+              <p>{exp.frontmatter.description}</p>
             </div>
           </>
         ))
@@ -59,7 +59,9 @@ const education = (await Astro.glob("./education/*.md")).filter(
             </div>
             <div class="row-span-3 col-span-3" />
             <div class="row-span-3 col-span-9 text-sm">
-              Grade {exp.frontmatter.grade}, {exp.frontmatter.focus}
+              <p>
+                Grade {exp.frontmatter.grade}, {exp.frontmatter.focus}
+              </p>
             </div>
           </>
         ))
@@ -68,17 +70,17 @@ const education = (await Astro.glob("./education/*.md")).filter(
     <CVSection title="Skills">
       <div class="row-span-1 col-span-3 text-end font-regular">Languages</div>
       <div class="row-span-1 col-span-9">
-        PHP, Typescript, Python, Rust, Java, C#
+        <p>PHP, Typescript, Python, Rust, Java, C#</p>
       </div>
       <div class="row-span-1 col-span-3 text-end font-regular">Other</div>
       <div class="row-span-1 col-span-9">
-        Git, SQL, Linux, Android, React, Django, .NET, Agile, Scrum
+        <p>Git, SQL, Linux, Android, React, Django, .NET, Agile, Scrum</p>
       </div>
     </CVSection>
     <CVSection title="Languages">
       <div class="row-span-3 col-span-3"></div>
       <div class="row-span-3 col-span-9">
-        Portuguese (native), English (fluent), Spanish (basic)
+        <p>Portuguese (native), English (fluent), Spanish (basic)</p>
       </div>
     </CVSection>
   </main>
