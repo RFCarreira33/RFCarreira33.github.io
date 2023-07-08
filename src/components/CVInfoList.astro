@@ -3,20 +3,38 @@ import type { InfoProps } from "./CVInfo.astro";
 
 // data for info box
 const infos: InfoProps[] = [
-    { icon: "envelope", info: "rodrigocarreira33@gmail.com" },
-    { icon: "linkedin", info: "rfcarreira33@linkedIn" },
-    { icon: "globe", info: "rfcarreira33.github.io" },
-    { icon: "github", info: "rfcarreira33@github" },
+    {
+        icon: "globe",
+        info: "rfcarreira33.github.io",
+        link: "https://rfcarreira33.github.io",
+    },
+    {
+        icon: "github",
+        info: "rfcarreira33@github",
+        link: "https://github.com/rfcarreira33",
+    },
+    {
+        icon: "linkedin",
+        info: "rfcarreira33@linkedIn",
+        link: "https://www.linkedin.com/in/rfcarreira33",
+    },
+    {
+        icon: "envelope",
+        info: "rodrigocarreira33@gmail.com",
+        link: "mailto:rodrigocarreira33@gmail.com",
+    },
 ];
 ---
 
 <ul>
     {
-        infos.map(({ icon, info }) => (
+        infos.map(({ icon, info, link }) => (
             <li class="flex justify-end">
                 <span class="items-center">
                     <i class={`fa fa-${icon} pr-1`} />
-                    {info}
+                    <a href={link} target="_blank">
+                        {info}
+                    </a>
                 </span>
             </li>
         ))

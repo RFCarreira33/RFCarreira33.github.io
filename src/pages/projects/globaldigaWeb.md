@@ -7,6 +7,7 @@ filename: "globaldigaWeb"
 source: "https://github.com/RFCarreira33/PSI_PLSI_22-23"
 layout: "../../layouts/ProjectLayout.astro"
 pin: true
+priority: 1
 ---
 
 ## Description

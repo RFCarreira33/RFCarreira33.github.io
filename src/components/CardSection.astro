@@ -9,14 +9,17 @@ const projects = (await Astro.glob("../pages/projects/*.md")).filter(
 <br />
 <section class="grid grid-cols-1 gap-4 auto-cols-max sm:grid-cols-2 sm:gap-3">
 	{
-		projects.slice(0, 4).map((proj) => (
-			//limit to 4 projects
-			<Card
-				title={proj.frontmatter.title}
-				body={proj.frontmatter.description}
-				language={proj.frontmatter.language}
-				href={`projects/${proj.frontmatter.filename}`}
-			/>
-		))
+		// limit to 6 projects
+		projects
+			.slice(0, 6)
+			.sort((a, b) => a.frontmatter.priority - b.frontmatter.priority)
+			.map((proj) => (
+				<Card
+					title={proj.frontmatter.title}
+					body={proj.frontmatter.description}
+					language={proj.frontmatter.language}
+					href={`projects/${proj.frontmatter.filename}`}
+				/>
+			))
 	}
 </section>

@@ -79,4 +79,8 @@ header {
         color: #2b2b27;
         font-size: 16px;
     }
+
+    a {
+        color: #2b2b27;
+    }
 }

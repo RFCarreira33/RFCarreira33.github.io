@@ -7,6 +7,7 @@ language: "Java"
 filename: "globaldigaMobile"
 layout: "../../layouts/ProjectLayout.astro"
 pin: true
+priority: 2
 ---
 
 ## Description
