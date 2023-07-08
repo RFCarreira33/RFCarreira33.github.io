@@ -7,6 +7,7 @@ language: "Astro / TypeScript"
 filename: "personalWebsite"
 layout: "../../layouts/ProjectLayout.astro"
 pin: true
+priority: 4
 ---
 
 ## Description

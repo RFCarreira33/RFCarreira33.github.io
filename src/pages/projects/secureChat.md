@@ -7,6 +7,7 @@ language: "C#"
 filename: "secureChat"
 layout: "../../layouts/ProjectLayout.astro"
 pin: true
+priotity: 6
 ---
 
 ## Description
