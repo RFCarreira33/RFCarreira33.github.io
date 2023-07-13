@@ -13,7 +13,7 @@ In 2021 I decided to enroll on a **programming course** at IPLeiria with no prio
 
 ## Programming languages
 
-I'm currently working with [Django](https://www.djangoproject.com/) and [React](https://react.dev/) with Typescript but
+I'm currently working with [Django](https://www.djangoproject.com/) and [React](https://react.dev/) with **Typescript** but
 I've worked with **PHP** and the [Yii2](https://www.yiiframework.com/) framework doing web development,
 **C#** and [.Net](https://dotnet.microsoft.com/) creating desktop apps and
 **Java** building mobile apps for [Android](https://developer.android.com/).
