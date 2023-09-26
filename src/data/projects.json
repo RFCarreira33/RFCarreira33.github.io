@@ -1,0 +1,134 @@
+[
+  {
+    "priority": 5,
+    "title": "Secure Chat",
+    "upload": "June 8, 2022",
+    "sm_description": "Secure Chat, as the name implies, is a chat with end-to-end encryption",
+    "lg_description": "Secure Chat, as the name implies, is a multi-client chat with end-to-end encryption that uses a communication protocol called ProtocolSI, developed by ex-Students of IPLeiria. It was a project for the TS (Tópicos de Segurança) curricular unit, which stands for Security Topics, and it introduced us to basic security processes.",
+    "what_is_it": "This app lets users communicate and send small files between them with end-to-end encryption, well almost because one of the requirements of the project was that the server should keep a log of the messages sent. But anyway, it was a really cool project that taught me a lot about cybersecurity and encryption.",
+    "lang": "C# .NET",
+    "source": "https://github.com/RFCarreira33/Projeto_TS",
+    "examples": [
+      {
+        "main": "Main Chat",
+        "src": "https://raw.githubusercontent.com/RFCarreira33/Projeto_TS/main/images/chat.png"
+      }
+    ]
+  },
+  {
+    "priority": 6,
+    "title": "RestGest",
+    "upload": "June 10, 2022",
+    "sm_description": "RestGest is a software for restaurant management",
+    "lg_description": "RestGest is a desktop application that can be used for restaurant management, it was project developed for DA (Desenvolvimento de aplicações) curricular unit that stands for Application Development, this was our introduction to OOP and Windows Forms.",
+    "what_is_it": "This app was made to be used across multiple restaurants used by the staff the software could do things such as register clients, register new restaurants, manage staff, manage menus, orders and other management features.",
+    "lang": "C# .NET",
+    "source": "https://github.com/RFCarreira33/Projeto_DA",
+    "examples": [
+      {
+        "main": "General App (Windows Forms look ugly)",
+        "src": "https://raw.githubusercontent.com/RFCarreira33/Projeto_DA/main/doc/images/main.png"
+      }
+    ]
+  },
+  {
+    "priority": 1,
+    "title": "Globaldiga Web",
+    "upload": "February 14, 2023",
+    "sm_description": "GlobalDiga, is a online tech store, and this is the web component of my final course project.",
+    "lg_description": "GlobalDiga, is a online tech store, and this is the web component of my final course project this being the main component which hosts the server and the api used to integrate the mobile component into the main server.",
+    "what_is_it": "This website contains a frontend and backend. The frontend lets clients make purchases, browse and search products, check their invoices from previous purchases, acess their personal area and some other nice features. The backend is used for management of stocks, accounts, products, categories and others.",
+    "lang": "PHP Yii2 SQL",
+    "source": "https://github.com/RFCarreira33/PSI_PLSI_22-23",
+    "examples": [
+      {
+        "main": "Main Frontend Page",
+        "src": "https://raw.githubusercontent.com/RFCarreira33/PSI_PLSI_22-23/main/resources/imgs/main.png"
+      },
+      {
+        "main": "Main Backend Page",
+        "src": "https://raw.githubusercontent.com/RFCarreira33/PSI_PLSI_22-23/main/resources/imgs/backend.png"
+      }
+    ]
+  },
+  {
+    "priority": 2,
+    "title": "Globaldiga Mobile",
+    "upload": "February 14, 2023",
+    "sm_description": "GlobalDiga, is a online tech store, and this is the mobile component of my final course project.",
+    "lg_description": "GlobalDiga, is a online tech store, and this is the mobile component of my final course project that integrates with the web component which uses an api to communicate with the server.",
+    "what_is_it": "This app is made for client use only, where the clients can make purchases, browse and search products, check their invoices from previous purchases, acess their personal area and some other nice features.",
+    "lang": "Java Android",
+    "source": "https://github.com/RFCarreira33/PSI_AMSI_22-23",
+    "examples": [
+      {
+        "main": "Main Page",
+        "src": "https://raw.githubusercontent.com/RFCarreira33/PSI_AMSI_22-23/main/resources/imgs/main.png"
+      }
+    ]
+  },
+  {
+    "priority": 4,
+    "title": "Personal Website",
+    "upload": "February 22, 2023",
+    "sm_description": "This is my simple personal website made by someone with somewhat awful frontend design skills",
+    "lg_description": "This is my simple personal website made by someone with somewhat awful frontend skills, but it was on my ideas list so I had to it.",
+    "what_is_it": "I use this website as a portfolio for my work, a personal page where share some more stuff about me and a way to improve my frontend skills",
+    "lang": "React Tailwind",
+    "source": "https://github.com/RFCarreira33/rfcarreira33.github.io",
+    "examples": [
+      {
+        "main": "Ur looking at it :)",
+        "src": "/404.png"
+      }
+    ]
+  },
+  {
+    "priority": 7,
+    "title": "Dotfiles",
+    "upload": "February 22, 2023",
+    "sm_description": "These are the dotfiles for my Unix systems and Neovim setup, which are always changing",
+    "lg_description": "Advent of Code is a series of small programming puzzles which happens every year in December, and I use it to learn new languages, data structures and algorithms.",
+    "what_is_it": "A friend of mine introduced me to it and I started doing it in 2022 to learn C++, and I've been going back to past years to do the puzzles when I feel like learning a new language. I've not yet completed all the puzzles for any year, but I'm working on it.",
+    "lang": "Nix Lua",
+    "source": "https://github.com/RFCarreira33/dotfiles",
+    "examples": [
+      {
+        "main": "Desktop and Neovim",
+        "src": "https://raw.githubusercontent.com/RFCarreira33/dotfiles/nixos/resources/main.png"
+      }
+    ]
+  },
+  {
+    "priority": 3,
+    "title": "Aurme",
+    "upload": "July 8, 2023",
+    "sm_description": "Aurme, is a Arch User Repository (AUR) package manager, that allows you to search, install and update AUR packages.",
+    "lg_description": "Aurme, is a Arch User Repository (AUR) package manager, that allows you to search, install and update AUR packages. Knowing that are other helpers that let you manage pacman and AUR packages we decided to make our own, that would just manage AUR ones, and it was another great way to use and learn more about Rust.",
+    "what_is_it": "This app let's you search, install and update AUR packages, all from your terminal, it's really simple and easy to use.",
+    "lang": "Rust",
+    "source": "https://github.com/marcofpadeiro/aurme",
+    "examples": [
+      {
+        "main": "Rust",
+        "src": "https://media.tenor.com/Hw0aKasI6B4AAAAC/fast-blazing-fast.gif"
+      }
+    ]
+  },
+  {
+    "priority": 6,
+    "title": "Advent of Code",
+    "upload": "July 8, 2023",
+    "sm_description": "Advent of Code is a series of small programming puzzles which I use to learn new languages, data structures and algorithms.",
+    "lg_description": "Advent of Code is a series of small programming puzzles which happens every year in December, and I use it to learn new languages, data structures and algorithms.",
+    "what_is_it": "A friend of mine introduced me to it and I started doing it in 2022 to learn C++, and I've been going back to past years to do the puzzles when I feel like learning a new language. I've not yet completed all the puzzles for any year, but I'm working on it.",
+    "lang": "Various languages",
+    "source": "https://github.com/RFCarreira33/Advent-of-Code",
+    "examples": [
+      {
+        "main": "Advent of Code",
+        "src": "https://www.caphyon.ro/wp-content/uploads/2020/05/advent-code-1-1024x647.png"
+      }
+    ]
+  }
+]
