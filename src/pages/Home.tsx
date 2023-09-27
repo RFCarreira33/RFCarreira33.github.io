@@ -1,6 +1,8 @@
 import CardSection from "../components/CardSection"
+import { SITE_TITLE } from "../config"
 
 const Home = () => {
+  document.title = `${SITE_TITLE} Home`
   return (
     <>
       <h1 className="text-2xl pb-2 font-bold">Heyo, I'm RFCarreira</h1>

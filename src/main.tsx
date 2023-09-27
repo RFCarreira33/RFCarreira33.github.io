@@ -5,12 +5,18 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './pages/Home.tsx'
 import NavBar from './components/Navbar.tsx'
 import Error from './pages/Error.tsx'
+import About from './pages/About.tsx'
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+    errorElement: <Error />,
+  },
+  {
+    path: "/about",
+    element: <About />,
     errorElement: <Error />,
   },
 ]);

@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "priority": 5,
     "title": "Secure Chat",
     "upload": "June 8, 2022",
@@ -16,6 +17,7 @@
     ]
   },
   {
+    "id": 2,
     "priority": 6,
     "title": "RestGest",
     "upload": "June 10, 2022",
@@ -32,6 +34,7 @@
     ]
   },
   {
+    "id": 3,
     "priority": 1,
     "title": "Globaldiga Web",
     "upload": "February 14, 2023",
@@ -52,6 +55,7 @@
     ]
   },
   {
+    "id": 4,
     "priority": 2,
     "title": "Globaldiga Mobile",
     "upload": "February 14, 2023",
@@ -68,6 +72,7 @@
     ]
   },
   {
+    "id": 5,
     "priority": 4,
     "title": "Personal Website",
     "upload": "February 22, 2023",
@@ -84,6 +89,7 @@
     ]
   },
   {
+    "id": 6,
     "priority": 7,
     "title": "Dotfiles",
     "upload": "February 22, 2023",
@@ -100,6 +106,7 @@
     ]
   },
   {
+    "id": 7,
     "priority": 3,
     "title": "Aurme",
     "upload": "July 8, 2023",
@@ -116,6 +123,7 @@
     ]
   },
   {
+    "id": 8,
     "priority": 6,
     "title": "Advent of Code",
     "upload": "July 8, 2023",

@@ -11,7 +11,7 @@ const CardSection = () => (
           .sort((a: any, b: any) => a.priority - b.priority)
           .slice(0, 6)
           .map((project: any) => (
-            <Card title={project.title} lang={project.lang} description={project["sm_description"]} href="" />
+            <Card key={project.id} title={project.title} lang={project.lang} description={project["sm_description"]} href="" />
           ))
       }
     </section>
