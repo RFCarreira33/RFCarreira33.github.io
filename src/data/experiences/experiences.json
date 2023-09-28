@@ -1,0 +1,16 @@
+ [
+   {
+     "id": 1,
+     "role": "Graphic Designer Intern",
+     "company": "Tozé Dinis",
+     "date": "January, June 2020",
+     "description": "I was responsible for creating and editing images, vectors and production of advertising products. This thought me a lot about how a product comes to life and how to work with clients since it was my first work experience."
+   },
+   {
+     "id": 2,
+     "role": "Full Stack Developer Intern",
+     "company": "MD3",
+     "date": "February, June 2023",
+     "description": "I was responsible to help develop a front-end using React and integrate it with an already existing application which was developed using Django. This was my first experience coding in a professional enviroment and working remotely."
+   }
+ ]

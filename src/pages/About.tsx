@@ -6,7 +6,7 @@ const About = () => (
     <br />
     <br />
     <h2>Programming languages</h2>
-    I'm currently working with <a href="https://www.djangoproject.com/">Django </a>and <a href="https://react.dev/">React</a> with <b>Typescript</b> but I've worked with <b>PHP</b> and the < a href="https://www.yiiframework.com/" > Yii2</a > framework doing web development, <b>C#</b> and < a href="https://dotnet.microsoft.com/" >.Net</a > creating desktop apps and < b > Java</b > building mobile apps for <a href="https://developer.android.com/">Android</a>.
+    I'm currently working with <a>Go</a> and <a>React</a> but I've worked with <b>PHP</b> and the < a href="https://www.yiiframework.com/" > Yii2</a> framework aswell as <a href="https://www.djangoproject.com/">Django</a> doing web development, <b>C#</b> and < a href="https://dotnet.microsoft.com/" >.Net</a > creating desktop apps and <b> Java</b> building mobile apps for <a href="https://developer.android.com/">Android</a>.
     <br />
     <br />
     <h2>Hardware and Stuff</h2>
@@ -14,7 +14,7 @@ const About = () => (
     <br />
     <br />
     <h2>Code Editor</h2>
-    I use < a href="https://neovim.io/" > Neovim</a > but go back to < a href="https://code.visualstudio.com/" > VSCode</a > with Vim keybinds when Neovim breaks.Both with <b>OneDark</b> theme.
+    I use <a href="https://neovim.io/" > Neovim</a > but go back to < a href="https://code.visualstudio.com/" > VSCode</a > with Vim keybinds when Neovim breaks.Both with <b>OneDark</b> theme.
     <br />
     <br />
     <h2>Goals and Ideas</h2>

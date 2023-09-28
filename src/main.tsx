@@ -5,9 +5,10 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './pages/Home.tsx'
 import Error from './pages/Error.tsx'
 import About from './pages/About.tsx'
-import Layout from './pages/Layout.tsx'
+import Layout from './layouts/Layout.tsx'
 import Projects from './pages/Projects.tsx'
 import Project from './pages/Project.tsx'
+import CVitae from './pages/CVitae.tsx'
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,11 @@ const router = createBrowserRouter([
       <Layout title={'Projects'}>
         <Project />
       </Layout >,
+    errorElement: <Error />,
+  },
+  {
+    path: "/curriculum-vitae",
+    element: <CVitae />,
     errorElement: <Error />,
   }
 ]);
