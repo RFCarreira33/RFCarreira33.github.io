@@ -1,5 +1,5 @@
 import Card from "./Card";
-import projectsJson from "../data/projects.json";
+import projectsJson from "../data/projects/projects.json";
 
 const CardSection = () => (
   <>
@@ -11,7 +11,7 @@ const CardSection = () => (
           .sort((a: any, b: any) => a.priority - b.priority)
           .slice(0, 6)
           .map((project: any) => (
-            <Card key={project.id} title={project.title} lang={project.lang} description={project["sm_description"]} href="" />
+            <Card key={project.id} project={project} />
           ))
       }
     </section>

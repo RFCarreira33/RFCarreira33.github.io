@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 interface NavLinkProps {
   title: string
   href: string
@@ -9,9 +11,9 @@ const NavLink = ({ title, href, blank }: NavLinkProps) => {
   const isActive = pathName === href || (pathName === "/" && href === "/");
 
   return (
-    <a href={href} target={blank ? "_blank" : undefined}>
+    <Link to={href} target={blank ? "_blank" : undefined}>
       <span className={`hover:underline underline-offset-3px mr-4 ${isActive ? "font-bold underline" : "font-medium"}`}>{title}</span>
-    </a >
+    </Link >
   )
 }
 

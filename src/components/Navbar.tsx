@@ -3,7 +3,7 @@ import NavLink from "./NavLink"
 
 const NavBar = () => {
   return (
-    <header>
+    <>
       <h2 className="text-xl font-bold flex items-center gap-3 ">
         <img
           src="/avatar.png"
@@ -30,7 +30,7 @@ const NavBar = () => {
         />
         <NavLink title="CV" href="/curriculum-vitae" />
       </nav>
-    </header>
+    </>
   )
 }
 
