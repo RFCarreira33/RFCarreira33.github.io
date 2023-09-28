@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "course": "Industrial Design",
+    "institution": "Instituto Educativo do Juncal",
+    "date": "2017-2020",
+    "grade": "16/20",
+    "description": "the course focuses on the creation and development of products, materials, CAD and systems with a strong emphasis on aesthetics, functionality, usability, and user experience."
+  },
+  {
+    "id": 2,
+    "course": "Information Systems Programming",
+    "institution": "IPLeiria - ESTG",
+    "date": "2021-2023",
+    "grade": "16/20",
+    "description": "the course aims to train professionals capable of programming and integrating systems, applications, and services of heterogeneous nature, using modern software development technologies, tools, and methodologies."
+  },
+  {
+    "id": 3,
+    "course": "Computer Science and Engineering",
+    "institution": "IPLeiria - ESTG",
+    "date": "2023-present",
+    "grade": "--/20",
+    "description": "the course intends to equip its graduates with the necessary skills to analyze, specify, and develop information systems, install and administer computer networks and implement computer solutions for specific applications."
+  }
+]
