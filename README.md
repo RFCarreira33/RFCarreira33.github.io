@@ -4,8 +4,9 @@ This is my simple personal website, that tests my somewhat awful frontend skills
 
 ## Technologies
 
-- [Astro](https://astro.build/)
+- [React](https://react.dev/)
 - [Tailwindcss](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
 
 ## Development
 
