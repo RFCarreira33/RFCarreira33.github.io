@@ -22,8 +22,9 @@ const About = () => (
       <li><s>Learn Rust</s></li>
       <li><s>Create Online CV</s></li>
       <li><s>Contribute to Open Source</s></li>
-      <li>Get a Job in the Tech field</li>
+      <li><s>Get a Job in the Tech field</s></li>
       <li><s>Create Personal Website</s></li>
+      <li>Graduate CS</li>
     </ul>
   </div>
 )

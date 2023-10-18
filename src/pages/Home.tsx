@@ -9,7 +9,7 @@ const Home = () => (
     </p>
     <br />
     <p>
-      I'm seeking my first job opportunity in the field while taking <b>CSE</b> at IPLeiria. On my free time I like to game or bike but also hang out
+      Currently working as a Full Stack Developer at <a href="https://md3.pt/" target="_blank">MD3</a> while being a <b>Computer Science</b> undergrad at <a href="https://www.ipleiria.pt/">IPLeiria</a>. On my free time I like to game or bike but also hang out
       with friends and chill.
     </p>
     <br />
