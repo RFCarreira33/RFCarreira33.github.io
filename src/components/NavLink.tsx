@@ -7,8 +7,9 @@ interface NavLinkProps {
 }
 
 const NavLink = ({ title, href, blank }: NavLinkProps) => {
-  const pathName = window.location.pathname
-  const isActive = pathName === href || (pathName === "/" && href === "/");
+  const splitTitle = document.title.split(" ")
+  const titleName = splitTitle[splitTitle.length-1].toLowerCase()
+  const isActive = titleName === title.toLowerCase()
 
   return (
     <Link to={href} target={blank ? "_blank" : undefined}>

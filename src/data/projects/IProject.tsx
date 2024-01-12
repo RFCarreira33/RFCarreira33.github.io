@@ -3,7 +3,7 @@ interface Example {
   src: string;
 }
 
-interface IProject {
+export interface IProject {
   id: number;
   priority: number;
   title: string;
