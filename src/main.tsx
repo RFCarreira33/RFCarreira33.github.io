@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import { RouterProvider, createHashRouter } from 'react-router-dom'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './pages/Home.tsx'
 import Error from './pages/Error.tsx'
 import About from './pages/About.tsx'
@@ -10,7 +10,7 @@ import Projects from './pages/Projects.tsx'
 import Project from './pages/Project.tsx'
 import CVitae from './pages/CVitae.tsx'
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element:
