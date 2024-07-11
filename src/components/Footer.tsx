@@ -4,7 +4,8 @@ const Footer = () => (
     <footer className="text-center">
       <br />
       <p>
-        Built with <a href="https://react.dev/">React</a> • Design and Colorscheme inspired by <a href="https://m3.material.io/">Material</a>
+        Built with <a href="https://react.dev/">React</a> • Design and
+        Colorscheme inspired by <a href="https://m3.material.io/">Material</a>
       </p>
     </footer>
   </>

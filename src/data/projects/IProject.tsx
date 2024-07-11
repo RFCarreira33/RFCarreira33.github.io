@@ -15,6 +15,3 @@ export interface IProject {
   source: string;
   examples: Example[];
 }
-
-
-

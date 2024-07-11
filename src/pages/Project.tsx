@@ -5,6 +5,7 @@ const Project = () => {
   const { id } = useParams();
   const projectId = Number(id);
   const project = projectsJson.find((project) => project.id === projectId);
+
   if (project === undefined) {
     throw new Error(`Project not found`);
   }
@@ -13,8 +14,14 @@ const Project = () => {
     <div>
       <h1 className="text-4xl">{project.title}</h1>
       <br />
-      <p><b>Uploaded</b> {project.upload}</p>
-      <b><a href={project.source} target="_blank">Source Code</a></b>
+      <p>
+        <b>Uploaded</b> {project.upload}
+      </p>
+      <b>
+        <a href={project.source} target="_blank">
+          Source Code
+        </a>
+      </b>
       <br />
       <br />
       <hr />
@@ -29,17 +36,14 @@ const Project = () => {
       <p>{project.lang}</p>
       <br />
       <h2>Examples</h2>
-      <br />
       {project.examples.map((example) => (
         <div className="text-center" key={example.main}>
-          <img src={example.src} className="mx-auto" />
+          <img src={example.src} className="mx-auto pt-5" />
           {example.main}
-          <br />
         </div>
       ))}
-    </div >
-  )
-}
+    </div>
+  );
+};
 
 export default Project;
-

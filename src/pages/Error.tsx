@@ -1,6 +1,6 @@
 import { useRouteError } from "react-router-dom";
 
-const Error = ({ }) => {
+const Error = ({}) => {
   const error: any = useRouteError();
   return (
     <div className="text-center">
@@ -9,12 +9,11 @@ const Error = ({ }) => {
         <a href="/">
           <img src="/404.png" />
         </a>
-      </div >
+      </div>
       <br />
       <h2>{error.message ? error.message : "Page not found"}</h2>
-    </div >
+    </div>
   );
-}
+};
 
 export default Error;
-

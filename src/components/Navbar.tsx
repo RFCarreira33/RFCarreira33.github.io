@@ -1,5 +1,5 @@
-import { MY_NAME } from "../config"
-import NavLink from "./NavLink"
+import { MY_NAME } from "../config";
+import NavLink from "./NavLink";
 
 const NavBar = () => {
   return (
@@ -18,11 +18,7 @@ const NavBar = () => {
         <NavLink title="Home" href="/" />
         <NavLink title="About" href="/about" />
         <NavLink title="Projects" href="/projects" />
-        <NavLink
-          title="GitHub"
-          href="https://github.com/RFCarreira33"
-          blank
-        />
+        <NavLink title="GitHub" href="https://github.com/RFCarreira33" blank />
         <NavLink
           title="LinkedIn"
           href="https://www.linkedin.com/in/rfcarreira33/"
@@ -31,7 +27,7 @@ const NavBar = () => {
         <NavLink title="CV" href="/curriculum-vitae" />
       </nav>
     </>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;

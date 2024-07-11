@@ -1,27 +1,4 @@
-import { MY_NAME } from "../config";
-
-const infos = [
-  {
-    icon: "globe",
-    info: "rfcarreira33.github.io",
-    link: "https://rfcarreira33.github.io",
-  },
-  {
-    icon: "github",
-    info: "rfcarreira33@github",
-    link: "https://github.com/rfcarreira33",
-  },
-  {
-    icon: "linkedin",
-    info: "rfcarreira33@linkedIn",
-    link: "https://www.linkedin.com/in/rfcarreira33",
-  },
-  {
-    icon: "envelope",
-    info: "rodrigocarreira33@gmail.com",
-    link: "mailto:rodrigocarreira33@gmail.com",
-  },
-];
+import { MY_NAME, PERSONAL_LINKS } from "../config";
 
 const CvInfo = () => (
   <div className="grid grid-rows-2 grid-cols-12 gap-2">
@@ -34,16 +11,17 @@ const CvInfo = () => (
     </div>
     <div className="row-span-2 col-span-5">
       <ul>
-        {
-          infos.map(({ icon, info, link }, index) => (
-            <li key={index} className="flex justify-end">
-              <span className="items-center">
-                <i className={`fa fa-${icon} pr-1`} />
-                <a href={link} target="_blank"> {info} </a>
-              </span>
-            </li>
-          ))
-        }
+        {PERSONAL_LINKS.map(({ icon, info, link }, index) => (
+          <li key={index} className="flex justify-end">
+            <span className="items-center">
+              <i className={`fa fa-${icon} pr-1`} />
+              <a href={link} target="_blank">
+                {" "}
+                {info}{" "}
+              </a>
+            </span>
+          </li>
+        ))}
       </ul>
     </div>
   </div>

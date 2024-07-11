@@ -1,4 +1,4 @@
-import CardSection from "../components/CardSection"
+import CardSection from "../components/CardSection";
 
 const Home = () => (
   <>
@@ -9,12 +9,17 @@ const Home = () => (
     </p>
     <br />
     <p>
-      Currently working as a <b>Full Stack Developer</b> at <a href="https://md3.pt/" target="_blank">MD3</a> while being a <b>Computer Science</b> undergrad at <a href="https://www.ipleiria.pt/">IPLeiria</a>. On my free time I like to game or bike but also hang out
-      with friends and chill.
+      Currently working as a <b>Full Stack Developer</b> at{" "}
+      <a href="https://md3.pt/" target="_blank">
+        MD3
+      </a>{" "}
+      while being a <b>Computer Science</b> undergrad at{" "}
+      <a href="https://www.ipleiria.pt/">IPLeiria</a>. On my free time I like to
+      game or bike but also hang out with friends and chill.
     </p>
     <br />
     <CardSection />
   </>
-)
+);
 
-export default Home
+export default Home;
