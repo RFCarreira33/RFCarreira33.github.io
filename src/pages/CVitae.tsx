@@ -39,15 +39,19 @@ const CVitae = () => {
             .slice(0, 2)
             .map((exp: IExperience, index) => (
               <React.Fragment key={index}>
-                <div className="row-span-1 col-span-3 text-end font-regular">
-                  {exp.date}
-                </div>
-                <div className="row-span-1 col-span-9">
+                <div className="row-span-1 col-span-9 print-md">
                   <span className="font-medium">{exp.role}</span>, {exp.company}
                 </div>
-                <div className="row-span-3 col-span-3" />
-                <div className="row-span-3 col-span-9 text-sm">
-                  <p>{exp.description}</p>
+                <div className="row-span-1 col-span-3 text-end print-md">
+                  <span className="font-medium text-end">{exp.date}</span>
+                </div>
+                <div className="row-span-3 col-span-full pb-2 text-sm print-rg">
+                  <p className="font-medium">{exp.header}</p>
+                  <div className="ps-3 pt-1">
+                    {exp.description.split("\n").map((line, index) => (
+                      <p key={index}>{line}</p>
+                    ))}
+                  </div>
                 </div>
               </React.Fragment>
             ))}
@@ -58,40 +62,46 @@ const CVitae = () => {
             .slice(0, 2)
             .map((edu: IEducation, index) => (
               <React.Fragment key={index}>
-                <div className="row-span-1 col-span-3 text-end font-regular">
-                  {edu.date}
-                </div>
-                <div className="row-span-1 col-span-9">
+                <div className="row-span-1 col-span-9 print-md">
                   <span className="font-medium">{edu.course}</span>,{" "}
                   {edu.institution}
                 </div>
-                <div className="row-span-3 col-span-3" />
-                <div className="row-span-3 col-span-9 text-sm">
+                <div className="row-span-1 col-span-3 text-end print-md">
+                  <span className="font-medium text-end">{edu.date}</span>
+                </div>
+                <div className="row-span-3 col-span-full pb-2 text-sm print-rg">
                   <p>
-                    Grade {edu.grade}, {edu.description}
+                    <span className="font-medium">Grade {edu.grade}</span>,{" "}
+                    {edu.description}
                   </p>
                 </div>
               </React.Fragment>
             ))}
         </CvSection>
         <CvSection title="Skills">
-          <div className="row-span-1 col-span-3 text-end font-regular">
+          <div className="row-span-1 col-span-3 text-end print-rg font-medium">
+            Programming
+          </div>
+          <div className="row-span-1 col-span-9">
+            <p>Python, PHP, Typescript, Java, C#, Rust, SQL</p>
+          </div>
+          <div className="row-span-1 col-span-3 text-end print-rg font-medium">
+            Frameworks
+          </div>
+          <div className="row-span-1 col-span-9">
+            <p>React, Django, .NET, Yii2, JQuery</p>
+          </div>
+          <div className="row-span-1 col-span-3 text-end print-rg font-medium">
+            Tools
+          </div>
+          <div className="row-span-1 col-span-9">
+            <p>Git, SQL, Linux, Agile, Scrum, AWS, Docker</p>
+          </div>
+          <div className="row-span-1 col-span-3 text-end print-rg font-medium">
             Languages
           </div>
-          <div className="row-span-1 col-span-9">
-            <p>PHP, Typescript, Go, Python, C#, Java, Rust</p>
-          </div>
-          <div className="row-span-1 col-span-3 text-end font-regular">
-            Other
-          </div>
-          <div className="row-span-1 col-span-9">
-            <p>Git, SQL, Linux, Android, React, Django, .NET, Agile, Scrum</p>
-          </div>
-        </CvSection>
-        <CvSection title="Languages">
-          <div className="row-span-3 col-span-3"></div>
           <div className="row-span-3 col-span-9">
-            <p>Portuguese (native), English (fluent), Spanish (basic)</p>
+            <p>Portuguese Native, English Fluent, Spanish Basic</p>
           </div>
         </CvSection>
       </div>

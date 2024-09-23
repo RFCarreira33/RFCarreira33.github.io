@@ -3,21 +3,24 @@
     "id": 1,
     "role": "Graphic Designer Intern",
     "company": "Tozé Dinis",
-    "date": "Jan-Jun 2020",
+    "date": "Jan - Jun 2020",
+    "header": "Graphic designer and print",
     "description": "I was responsible for creating and editing images, vectors and production of advertising products. This thought me a lot about how a product comes to life and how to work with clients since it was my first work experience."
   },
   {
     "id": 2,
     "role": "Full Stack Developer Intern",
     "company": "MD3",
-    "date": "Feb-Jun 2023",
-    "description": "I was responsible to help develop a front-end using React and integrate it with an already existing application which was developed using Django. This was my first experience coding in a professional enviroment and working remotely."
+    "date": "Feb - Jun 2023",
+    "header": "Developer for the app Keywords, TV/Radio content search engine.",
+    "description": "• Contributed to the development of a React frontend and integrated it with an existing application.\n• Adapted the existing backend in Django to be consumed by the new frontend, in compliance with RESTful API standards.\n• Responsible for maintaining the existing application."
   },
   {
     "id": 3,
     "role": "Full Stack Developer",
     "company": "MD3",
-    "date": "Oct 2023-present",
-    "description": "Working with React, Django, ElasticSearch, PostgreSQL, Docker and AWS."
+    "date": "Oct 2023 - present",
+    "header": "Developer for the Keywords app, a TV/Radio content search engine, as well as APM, an event management platform.",
+    "description": "• Continued developing the frontend in React with TypeScript while adapting the existing backend into a RESTful API.\n• Managed the integration of containerized microservices with Docker.\n• Handled data monitoring and management through ElasticSearch and Kibana. \n• Responsible for maintaining the existing applications."
   }
 ]

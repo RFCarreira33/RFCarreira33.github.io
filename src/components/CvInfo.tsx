@@ -6,20 +6,18 @@ const CvInfo = () => (
       <img src="/avatar.png" />
     </div>
     <div className="row-span-4 col-span-5">
-      <h1 className="text-xl font-bold">{MY_NAME}</h1>
-      <p className="text-l">Developer in Leiria, Portugal</p>
+      <h1 className="text-xl font-bold print-hd">{MY_NAME}</h1>
+      <p className="text-l print-md">Developer in Leiria, Portugal</p>
     </div>
     <div className="row-span-2 col-span-5">
       <ul>
         {PERSONAL_LINKS.map(({ icon, info, link }, index) => (
           <li key={index} className="flex justify-end">
-            <span className="items-center">
-              <i className={`fa fa-${icon} pr-1`} />
-              <a href={link} target="_blank">
-                {" "}
-                {info}{" "}
-              </a>
-            </span>
+            <a href={link} target="_blank">
+              <span className="items-center">
+                <i className={`fa fa-${icon} pr-1`} /> {info}{" "}
+              </span>
+            </a>
           </li>
         ))}
       </ul>

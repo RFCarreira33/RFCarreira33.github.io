@@ -18,13 +18,15 @@ const About = () => (
     <br />
     <br />
     <h2>Hardware and Stuff</h2>I have a <b> desktop</b> with dual boot Windows
-    and <a href="knowyourmeme.com/memes/btw-i-use-arch">Arch</a> with a Ryzen
-    5700x and Nvidia 3060ti but my <b> daily drivers</b> are a Macbook Air M1
-    and a Thinkpad T480s.
+    and some Linux distros,{" "}
+    <a href="knowyourmeme.com/memes/btw-i-use-arch">Arch</a> and{" "}
+    <a href="https://nixos.org/">Nixos</a>, with a Ryzen 5700x and a Radeon
+    7800xt but my <b> daily drivers</b> are a Macbook Air M1 and a Thinkpad
+    T480s.
     <br />
     <br />
-    <h2>Code Editor</h2>I use <a href="https://neovim.io/"> Neovim</a> mostly but
-    ocasionally use a <a href="https://www.jetbrains.com/">JetBrains IDE</a>{" "}
+    <h2>Code Editor</h2>I use <a href="https://neovim.io/"> Neovim</a> mostly
+    but ocasionally use a <a href="https://www.jetbrains.com/">JetBrains IDE</a>{" "}
     with Vim keybinds all with <b>Gruvbox</b> theme.
     <br />
     <br />

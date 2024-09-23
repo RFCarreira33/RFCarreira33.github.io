@@ -96,7 +96,7 @@
     "sm_description": "These are the dotfiles for my Unix systems and Neovim setup, which are always changing.",
     "lg_description": "This repository houses my personalized configuration files, which are always changing, for my Unix systems and Neovim setup. I use it to keep track of my changes and to share my setup with others.",
     "what_is_it": "Houses my configs for my Unix systems and Neovim setup, which are always changing.",
-    "lang": "Lua Bash",
+    "lang": "Nix Lua Bash",
     "source": "https://github.com/RFCarreira33/dotfiles",
     "examples": [
       {
