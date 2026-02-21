@@ -1,14 +1,16 @@
 [
   {
     "id": 1,
-    "priority": 5,
+    "priority": 6,
     "title": "Secure Chat",
     "upload": "June 8, 2022",
     "sm_description": "Secure Chat, as the name implies, is a chat with end-to-end encryption.",
     "lg_description": "Secure Chat, as the name implies, is a multi-client chat with end-to-end encryption that uses a communication protocol called ProtocolSI, developed by ex-Students of IPLeiria. It was a project for the TS (Tópicos de Segurança) curricular unit, which stands for Security Topics, and it introduced us to basic security processes.",
     "what_is_it": "This app lets users communicate and send small files between them with end-to-end encryption, well almost because one of the requirements of the project was that the server should keep a log of the messages sent. But anyway, it was a really cool project that taught me a lot about cybersecurity and encryption.",
     "lang": "C# .NET",
-    "source": "https://github.com/RFCarreira33/Projeto_TS",
+    "source": {
+      "Source": "https://github.com/RFCarreira33/Projeto_TS"
+    },
     "examples": [
       {
         "main": "Main Chat",
@@ -18,14 +20,16 @@
   },
   {
     "id": 2,
-    "priority": 6,
+    "priority": 9,
     "title": "RestGest",
     "upload": "June 10, 2022",
     "sm_description": "RestGest is a software for restaurant management.",
     "lg_description": "RestGest is a desktop application that can be used for restaurant management, it was project developed for DA (Desenvolvimento de aplicações) curricular unit that stands for Application Development, this was our introduction to OOP and Windows Forms.",
     "what_is_it": "This app was made to be used across multiple restaurants used by the staff the software could do things such as register clients, register new restaurants, manage staff, manage menus, orders and other management features.",
     "lang": "C# .NET",
-    "source": "https://github.com/RFCarreira33/Projeto_DA",
+    "source": {
+      "Source": "https://github.com/RFCarreira33/Projeto_DA"
+    },
     "examples": [
       {
         "main": "General App (Windows Forms look ugly)",
@@ -42,7 +46,9 @@
     "lg_description": "GlobalDiga, is a online tech store, and this is the web component of my final course project this being the main component which hosts the server and the api used to integrate the mobile component into the main server.",
     "what_is_it": "This website contains a frontend and backend. The frontend lets clients make purchases, browse and search products, check their invoices from previous purchases, acess their personal area and some other nice features. The backend is used for management of stocks, accounts, products, categories and others.",
     "lang": "PHP Yii2 SQL",
-    "source": "https://github.com/RFCarreira33/PSI_PLSI_22-23",
+    "source": {
+      "Source": "https://github.com/RFCarreira33/PSI_PLSI_22-23"
+    },
     "examples": [
       {
         "main": "Main Frontend Page",
@@ -56,14 +62,16 @@
   },
   {
     "id": 4,
-    "priority": 2,
+    "priority": 8,
     "title": "Globaldiga Mobile",
     "upload": "February 14, 2023",
     "sm_description": "GlobalDiga, is a online tech store, and this is the mobile component of my final course project.",
     "lg_description": "GlobalDiga, is a online tech store, and this is the mobile component of my final course project that integrates with the web component which uses an api to communicate with the server.",
     "what_is_it": "This app is made for client use only, where the clients can make purchases, browse and search products, check their invoices from previous purchases, acess their personal area and some other nice features.",
     "lang": "Java Android",
-    "source": "https://github.com/RFCarreira33/PSI_AMSI_22-23",
+    "source": {
+      "Source": "https://github.com/RFCarreira33/PSI_AMSI_22-23"
+    },
     "examples": [
       {
         "main": "Main Page",
@@ -80,7 +88,9 @@
     "lg_description": "This is my simple personal website made by someone with somewhat awful frontend skills, but it was on my ideas list so I had to it.",
     "what_is_it": "I use this website as a portfolio for my work, a personal page where share some more stuff about me and a way to improve my frontend skills",
     "lang": "React Tailwind",
-    "source": "https://github.com/RFCarreira33/rfcarreira33.github.io",
+    "source": {
+      "Source": "https://github.com/RFCarreira33/rfcarreira33.github.io"
+    },
     "examples": [
       {
         "main": "Ur looking at it :)",
@@ -97,7 +107,9 @@
     "lg_description": "This repository houses my personalized configuration files, which are always changing, for my Unix systems and Neovim setup. I use it to keep track of my changes and to share my setup with others.",
     "what_is_it": "Houses my configs for my Unix systems and Neovim setup, which are always changing.",
     "lang": "Nix Lua Bash",
-    "source": "https://github.com/RFCarreira33/dotfiles",
+    "source": {
+      "Source": "https://github.com/RFCarreira33/dotfiles"
+    },
     "examples": [
       {
         "main": "Desktop and Neovim",
@@ -114,7 +126,9 @@
     "lg_description": "Aurme, is a Arch User Repository (AUR) package manager, that allows you to search, install and update AUR packages. Knowing that are other helpers that let you manage pacman and AUR packages we decided to make our own, that would just manage AUR ones, and it was another great way to use and learn more about Rust.",
     "what_is_it": "This app let's you search, install and update AUR packages, all from your terminal, it's really simple and easy to use.",
     "lang": "Rust",
-    "source": "https://github.com/marcofpadeiro/aurme",
+    "source": {
+      "Source": "https://github.com/marcofpadeiro/aurme"
+    },
     "examples": [
       {
         "main": "Rust",
@@ -131,11 +145,56 @@
     "lg_description": "Advent of Code is a series of small programming puzzles which happens every year in December, and I use it to learn new languages, data structures and algorithms.",
     "what_is_it": "A friend of mine introduced me to it and I started doing it in 2022 to learn C++, and I've been going back to past years to do the puzzles when I feel like learning a new language. I've not yet completed all the puzzles for any year, but I'm working on it.",
     "lang": "Various languages",
-    "source": "https://github.com/RFCarreira33/Advent-of-Code",
+    "source": {
+      "Source": "https://github.com/RFCarreira33/Advent-of-Code"
+    },
     "examples": [
       {
         "main": "Advent of Code",
         "src": "https://www.caphyon.ro/wp-content/uploads/2020/05/advent-code-1-1024x647.png"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "priority": 5,
+    "title": "Bisca Platform",
+    "upload": "January 15, 2026",
+    "sm_description": "Bisca Platform is a platform for playing the card game Bisca online or singleplayer.",
+    "lg_description": "Bisca Platform is a platform for playing the card game Bisca online or singleplayer, it was a project developed for the DAD (Desenvolvimento de aplicações Distribuidas) curricular unit, where we had to develop a platform to play Bisca (typical Portuguese card game) against a BOT and Online using websockets to connect players.",
+    "what_is_it": "It's a platform where users can play the card game Bisca online against other players or against a BOT.",
+    "lang": "Laravel Vue Typescript",
+    "source": {
+      "Source": "https://github.com/RFCarreira33/DAD_Project"
+    },
+    "examples": [
+      {
+        "main": "Bisca Platform Game",
+        "src": "/projects/91.png"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "priority": 2,
+    "title": "Research Platform",
+    "upload": "January 23, 2026",
+    "sm_description": "This project was developed for the DAE curricular unit, where we had to develop a platform for sharing research and projects.",
+    "lg_description": "This project was developed for the DAE (Desenvolvimento de Aplicações Empresariais) curricular unit, where we had to develop a platform for sharing research and projects that would integrate AI powered features that would help researchers summarize their papers and projects as well as subscribing on relevant research tags to get updates",
+    "what_is_it": "It's a platform where researchers and students can share their research and projects, and also find other research and projects to collaborate on with AI and Social media like features.",
+    "lang": "Java React",
+    "source": {
+      "Frontend": "https://github.com/RFCarreira33/ProjetoDAE-Client",
+      "Backend": "https://github.com/marcofpadeiro/ProjetoDAE"
+    },
+    "examples": [
+      {
+        "main": "Research post page",
+        "src": "/projects/101.png"
+      },
+      {
+        "main": "Research post creation",
+        "src": "/projects/102.png"
       }
     ]
   }

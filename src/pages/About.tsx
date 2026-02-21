@@ -17,12 +17,11 @@ const About = () => (
     enjoy playing with in <a href="https://www.rust-lang.org/">Rust</a>.
     <br />
     <br />
-    <h2>Hardware and Stuff</h2>I have a <b> desktop</b> with dual boot Windows
-    and some Linux distros,{" "}
-    <a href="knowyourmeme.com/memes/btw-i-use-arch">Arch</a> and{" "}
-    <a href="https://nixos.org/">Nixos</a>, with a Ryzen 5700x and a Radeon
-    7800xt but my <b> daily drivers</b> are a Macbook Air M1 and a Thinkpad
-    T480s.
+    <h2>Hardware and Stuff</h2>
+    I have a <b> desktop</b> with a Ryzen 5700x and a
+    Radeon 7800xt and my <b> daily driver</b> is a Thinkpad T480s both running{" "}
+    <a href="knowyourmeme.com/memes/btw-i-use-arch">Arch</a> as my main{" "}
+    <b>OS</b> for development.
     <br />
     <br />
     <h2>Code Editor</h2>I use <a href="https://neovim.io/"> Neovim</a> mostly
@@ -33,7 +32,6 @@ const About = () => (
     <h2>Goals and Ideas</h2>
     <ul>
       <li>Graduate CS</li>
-      <li>Deep dive into NixOS</li>
       <li>Dip into Self-hosting</li>
       <li>
         <s>Learn Rust</s>

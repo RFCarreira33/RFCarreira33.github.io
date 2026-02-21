@@ -1,10 +1,15 @@
 import { useParams } from "react-router-dom";
 import projectsJson from "../data/projects/projects.json";
+import { useMemo } from "react";
 
 const Project = () => {
   const { id } = useParams();
   const projectId = Number(id);
   const project = projectsJson.find((project) => project.id === projectId);
+  const sources = useMemo(
+    () => Object.entries(project?.source || {}),
+    [project],
+  );
 
   if (project === undefined) {
     throw new Error(`Project not found`);
@@ -18,9 +23,14 @@ const Project = () => {
         <b>Uploaded</b> {project.upload}
       </p>
       <b>
-        <a href={project.source} target="_blank">
-          Source Code
-        </a>
+        {sources.map(([type, link], i) => (
+          <span key={type}>
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              {type}
+            </a>
+            {i < sources.length - 1 && " | "}
+          </span>
+        ))}
       </b>
       <br />
       <br />

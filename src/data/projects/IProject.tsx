@@ -12,6 +12,6 @@ export interface IProject {
   lg_description: string;
   what_is_it: string;
   lang: string;
-  source: string;
+  source: Record<string, string>;
   examples: Example[];
 }

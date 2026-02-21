@@ -83,19 +83,19 @@ const CVitae = () => {
             Programming
           </div>
           <div className="row-span-1 col-span-9">
-            <p>Python, PHP, Typescript, Java, C#, Rust, SQL</p>
+            <p>Python, PHP, Typescript, Java, C#, Rust</p>
           </div>
           <div className="row-span-1 col-span-3 text-end print-rg font-medium">
             Frameworks
           </div>
           <div className="row-span-1 col-span-9">
-            <p>React, Django, .NET, Yii2, JQuery</p>
+            <p>React, Django, Laravel, Yii2, Vue</p>
           </div>
           <div className="row-span-1 col-span-3 text-end print-rg font-medium">
             Tools
           </div>
           <div className="row-span-1 col-span-9">
-            <p>Git, SQL, Linux, Agile, Scrum, AWS, Docker</p>
+            <p>Git, SQL, Linux, ElasticSearch, AWS, Docker</p>
           </div>
           <div className="row-span-1 col-span-3 text-end print-rg font-medium">
             Languages

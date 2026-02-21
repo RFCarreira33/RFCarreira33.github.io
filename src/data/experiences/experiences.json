@@ -13,14 +13,14 @@
     "company": "MD3",
     "date": "Feb - Jun 2023",
     "header": "Developer for the app Keywords, TV/Radio content search engine.",
-    "description": "• Contributed to the development of a React frontend and integrated it with an existing application.\n• Adapted the existing backend in Django to be consumed by the new frontend, in compliance with RESTful API standards.\n• Responsible for maintaining the existing application."
+    "description": "• Contributed to the development of a React-based frontend and integrated it with the existing platform..\n• Refactored and exposed Django backend functionalities as RESTful APIs to support the new frontend architecture.\n• Assisted in maintaining and debugging the current application, ensuring stability and performance."
   },
   {
     "id": 3,
     "role": "Full Stack Developer",
     "company": "MD3",
     "date": "Oct 2023 - present",
-    "header": "Developer for the Keywords app, a TV/Radio content search engine, as well as APM, an event management platform.",
-    "description": "• Continued developing the frontend in React with TypeScript while adapting the existing backend into a RESTful API.\n• Managed the integration of containerized microservices with Docker.\n• Handled data monitoring and management through ElasticSearch and Kibana. \n• Responsible for maintaining the existing applications."
+    "header": "Developer for the Keywords app, a TV/Radio content search engine, internal tools and client-facing applications.",
+    "description": "• Designed and maintained Python services integrated with Elasticsearch.\n• Developed and enhanced a React + TypeScript frontend, improving usability and maintainability.\n• Containerized and managed microservices using Docker to support a modular and scalable architecture. \n• Maintained and improved existing applications by fixing bugs, refactoring legacy code, and implementing new features."
   }
 ]
