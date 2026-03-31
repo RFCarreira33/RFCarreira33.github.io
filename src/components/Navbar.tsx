@@ -4,26 +4,45 @@ import NavLink from "./NavLink";
 const NavBar = () => {
   return (
     <>
-      <h2 className="text-xl font-bold flex items-center gap-3 ">
-        <img
-          src="/avatar.png"
-          alt="avatar"
-          width={50}
-          height={50}
-          className="rounded-full"
-        />
-        {MY_NAME}
-      </h2>
+      <div className="flex justify-between">
+        <h2 className="text-xl font-bold flex items-center gap-3 ">
+          <img
+            src="/avatar.png"
+            alt="avatar"
+            width={50}
+            height={50}
+            className="rounded-full"
+          />
+          {MY_NAME}
+        </h2>
+        <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3">
+            <a
+              href="https://www.linkedin.com/in/rfcarreira33/"
+              className="text-xl text-white"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "var(--white)" }}
+            >
+              <i className="fa fa-linkedin"></i>
+            </a>
+
+            <a
+              href="https://github.com/RFCarreira33"
+              className="text-xl text-white"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "var(--white)" }}
+            >
+              <i className="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
       <nav>
         <NavLink title="Home" href="/" />
         <NavLink title="About" href="/about" />
         <NavLink title="Projects" href="/projects" />
-        <NavLink title="GitHub" href="https://github.com/RFCarreira33" blank />
-        <NavLink
-          title="LinkedIn"
-          href="https://www.linkedin.com/in/rfcarreira33/"
-          blank
-        />
         <NavLink title="CV" href="/curriculum-vitae" />
       </nav>
     </>
