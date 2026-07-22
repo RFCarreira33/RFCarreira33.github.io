@@ -28,7 +28,9 @@ const About = () => (
     <br />
     <h2>Goals and Ideas</h2>
     <ul>
-      <li>Graduate CS</li>
+      <li>
+        <s>Graduate CS</s>
+      </li>
       <li>Dip into Self-hosting</li>
       <li>
         <s>Learn Rust</s>

@@ -6,6 +6,7 @@ import educationsJson from "../data/education/education.json";
 import React from "react";
 import { IExperience } from "../data/experiences/IExperience";
 import { IEducation } from "../data/education/IEducation";
+import { Link } from "react-router-dom";
 
 const CVitae = () => {
   document.title = `${SITE_TITLE} Curriculum Vitae`;
@@ -13,12 +14,12 @@ const CVitae = () => {
     <>
       <div className="grid grid-rows-1 grid-cols-12 gap-2 print:hidden">
         <div className="col-span-2">
-          <a href="/">
+          <Link to="/">
             <span className="font-medium hover:underline underline-offset-3px">
               <i className="fa fa-home pr-2"></i>
               Home
             </span>
-          </a>
+          </Link>
         </div>
         <div className="col-span-8"></div>
         <div className="col-span-2 flex justify-end">

@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "course": "Information Systems Programming",
+    "course": "TESP - Information Systems Programming",
     "institution": "IPLeiria - ESTG",
     "date": "2021 - 2023",
     "grade": "16/20",
@@ -17,10 +17,10 @@
   },
   {
     "id": 3,
-    "course": "Computer Science and Engineering",
+    "course": "Bachelor - Computer Science and Engineering",
     "institution": "IPLeiria - ESTG",
-    "date": "2023 - present",
-    "grade": "--/20",
+    "date": "2023 - 2026",
+    "grade": "15/20",
     "description": "the course intends to equip its graduates with the necessary skills to analyze, specify, and develop information systems, install and administer computer networks and implement computer solutions for specific applications."
   }
 ]
