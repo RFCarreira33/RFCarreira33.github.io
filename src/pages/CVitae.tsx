@@ -40,15 +40,15 @@ const CVitae = () => {
             .slice(0, 2)
             .map((exp: IExperience, index) => (
               <React.Fragment key={index}>
-                <div className="row-span-1 col-span-9 print-md">
-                  <span className="font-medium">{exp.role}</span>, {exp.company}
+                <div className="mb-1">
+                  <span className="font-medium">
+                    {exp.role}, {exp.company}
+                  </span>
+                  <span> | {exp.date}</span>
                 </div>
-                <div className="row-span-1 col-span-3 text-end print-md">
-                  <span className="font-medium text-end">{exp.date}</span>
-                </div>
-                <div className="row-span-3 col-span-full pb-2 text-sm print-rg">
+                <div className="pb-2 text-sm">
                   <p className="font-medium">{exp.header}</p>
-                  <div className="ps-3 pt-1">
+                  <div className="pt-1">
                     {exp.description.split("\n").map((line, index) => (
                       <p key={index}>{line}</p>
                     ))}
@@ -63,47 +63,41 @@ const CVitae = () => {
             .slice(0, 2)
             .map((edu: IEducation, index) => (
               <React.Fragment key={index}>
-                <div className="row-span-1 col-span-9 print-md">
-                  <span className="font-medium">{edu.course}</span>,{" "}
-                  {edu.institution}
-                </div>
-                <div className="row-span-1 col-span-3 text-end print-md">
-                  <span className="font-medium text-end">{edu.date}</span>
-                </div>
-                <div className="row-span-3 col-span-full pb-2 text-sm print-rg">
-                  <p>
-                    <span className="font-medium">Grade {edu.grade}</span>,{" "}
-                    {edu.description}
-                  </p>
+                <div>
+                  <span className="text-sm">
+                    {edu.course}, {edu.institution}
+                  </span>
+                  <span className="text-sm"> | {edu.date}</span>
                 </div>
               </React.Fragment>
             ))}
         </CvSection>
         <CvSection title="Skills">
-          <div className="row-span-1 col-span-3 text-end print-rg font-medium">
-            Programming
+          <div>
+            <p className="text-sm">
+              <span>Languages:</span> Python, PHP,
+              TypeScript, Java, C#, Rust
+            </p>
+            <p className="text-sm">
+              <span>Frontend:</span> React, Vue,
+              TypeScript
+            </p>
+            <p className="text-sm">
+              <span className="font-medium">Backend:</span> Django,
+              Laravel, Yii2, Node 
+            </p>
+            <p className="text-sm">
+              <span className="font-medium">
+                Tools & Infrastructure:
+              </span>{" "}
+              Git, SQL, Linux, Elasticsearch, AWS, Docker
+            </p>
           </div>
-          <div className="row-span-1 col-span-9">
-            <p>Python, PHP, Typescript, Java, C#, Rust</p>
-          </div>
-          <div className="row-span-1 col-span-3 text-end print-rg font-medium">
-            Frameworks
-          </div>
-          <div className="row-span-1 col-span-9">
-            <p>React, Django, Laravel, Yii2, Vue</p>
-          </div>
-          <div className="row-span-1 col-span-3 text-end print-rg font-medium">
-            Tools
-          </div>
-          <div className="row-span-1 col-span-9">
-            <p>Git, SQL, Linux, ElasticSearch, AWS, Docker</p>
-          </div>
-          <div className="row-span-1 col-span-3 text-end print-rg font-medium">
-            Languages
-          </div>
-          <div className="row-span-3 col-span-9">
-            <p>Portuguese Native, English Fluent, Spanish Basic</p>
-          </div>
+        </CvSection>
+        <CvSection title="Languages">
+          <p className="text-sm">
+            Portuguese (Native), English (Fluent), Spanish (Basic)
+          </p>
         </CvSection>
       </div>
     </>

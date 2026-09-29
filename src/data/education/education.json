@@ -10,7 +10,7 @@
   {
     "id": 2,
     "course": "TESP - Information Systems Programming",
-    "institution": "IPLeiria - ESTG",
+    "institution": "ULO - ESTG",
     "date": "2021 - 2023",
     "grade": "16/20",
     "description": "the course aims to train professionals capable of programming and integrating systems, applications, and services of heterogeneous nature, using modern software development technologies, tools, and methodologies."
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "course": "Bachelor - Computer Science and Engineering",
-    "institution": "IPLeiria - ESTG",
+    "institution": "ULO - ESTG",
     "date": "2023 - 2026",
     "grade": "15/20",
     "description": "the course intends to equip its graduates with the necessary skills to analyze, specify, and develop information systems, install and administer computer networks and implement computer solutions for specific applications."

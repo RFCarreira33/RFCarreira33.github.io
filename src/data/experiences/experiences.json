@@ -13,14 +13,14 @@
     "company": "MD3",
     "date": "Feb - Jun 2023",
     "header": "Developer for the app Keywords, TV/Radio content search engine.",
-    "description": "• Contributed to the development of a React-based frontend and integrated it with the existing platform..\n• Refactored and exposed Django backend functionalities as RESTful APIs to support the new frontend architecture.\n• Assisted in maintaining and debugging the current application, ensuring stability and performance."
+    "description": "- Contributed to the development of a React-based frontend and integrated it with the existing platform.\n- Refactored and exposed Django backend functionalities as RESTful APIs to support the new frontend architecture.\n- Assisted in maintaining and debugging the current application, ensuring stability and performance."
   },
   {
     "id": 3,
     "role": "Full Stack Developer",
     "company": "MD3",
     "date": "Oct 2023 - present",
-    "header": "Developer for the Keywords app, a TV/Radio content search engine, internal tools and client-facing applications.",
-    "description": "• Designed and maintained Python services integrated with Elasticsearch.\n• Developed and enhanced a React + TypeScript frontend, improving usability and maintainability.\n• Containerized and managed microservices using Docker to support a modular and scalable architecture. \n• Maintained and improved existing applications by fixing bugs, refactoring legacy code, and implementing new features."
+    "header": "Developer working primarily on the Keywords TV/Radio content search platform, as well as internal tools and client-facing applications.",
+    "description": "- Develop and maintain Python backend services using PostgreSQL and Elasticsearch to support search-driven TV and radio content applications.\n- Design and integrate REST APIs, connecting backend services with React and TypeScript frontend applications.\n - Modernize legacy applications by refactoring existing functionality and replacing parts of monolithic systems with independently deployable microservices.\n- Contributed to architectural decisions around service boundaries and the decomposition of legacy functionality into microservices."
   }
 ]
