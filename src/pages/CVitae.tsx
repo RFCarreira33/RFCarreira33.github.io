@@ -75,11 +75,11 @@ const CVitae = () => {
         <CvSection title="Skills">
           <div>
             <p className="text-sm">
-              <span>Languages:</span> Python, PHP,
+              <span className="font-medium">Languages:</span> Python, PHP,
               TypeScript, Java, C#, Rust
             </p>
             <p className="text-sm">
-              <span>Frontend:</span> React, Vue,
+              <span className="font-medium">Frontend:</span> React, Vue,
               TypeScript
             </p>
             <p className="text-sm">
